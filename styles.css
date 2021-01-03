@@ -1,0 +1,510 @@
+a.noDefaultStyle, a.noDefaultStyle:hover {
+    text-decoration: none;
+    color: #084655;
+}
+
+.second-custom a.noDefaultStyle {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-height: 100vh;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+}
+
+body p {
+    color: #084655;
+}
+
+
+/* Mise en page du header */
+
+header {
+    border-top: 8px solid #FEB12D;
+    z-index: 99999;
+}
+
+nav {
+    background-color: #084655;
+}
+
+a.navbar-brand {
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+li a {
+    text-align: center;
+}
+
+/* Mise en page de la bannière */
+
+.banner {
+    background-image: url(img/bg-waterpolo.jpg);
+    height: 675px;
+}
+
+.title-site {
+    margin-bottom: 310px;
+}
+
+button.dl-btn {
+    background-color: #FEB12D;
+    border-radius: 10px;
+    border: 0;
+    color: #084655;
+    padding: 10px;
+    -webkit-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.75);
+}
+
+
+
+div.title-site {
+    color: white;
+    padding-top: 10px;
+}
+
+.fas.fa-arrow-down {
+    font-size: 50px;
+    color: #FEB12D;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.arrow-bottom {
+    text-align: center;
+}
+
+
+.club-title.h3 {
+    color: white;
+    text-align: center;
+    top: 80%;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 375px) {
+    position: absolute;
+    top: 65%;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p.text-description {
+    color: black;
+    line-height: 22px;
+}
+
+h4.meeting-title {
+    background-color: #084655;
+    color: white;
+}
+
+.custom-btn, a.custom-btn {
+    background-color: #FEB12D;
+    border-radius: 5px;
+    border: 0;
+    color: #084655;
+    -webkit-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.75);
+    width: 275px;
+}
+
+/* carousel */
+
+.carousel {
+    background: #084655;
+}
+
+.carousel-item .img-fluid {
+    height: 300px;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+.carousel-item a {
+    display: block;
+    width:100%;
+}
+
+div.last-news > h2 {
+    background-color: #084655;
+    color: white;
+    border-top: 10px solid #FEB12D;
+}
+
+
+div.carousel-caption {
+    color: black;
+    background-color: white;
+    width: 45%;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0; 
+}
+
+div.carousel-caption h2 {
+    font-size: 12px;
+}
+
+/* footer */
+
+div.social-networks a {
+    color: white;
+
+}
+
+footer {
+    background-color: #262626;
+    color: white;
+}
+
+footer a.mail {
+    text-decoration: underline;
+    color: white;
+}
+
+/* barre de recherche des articles */
+
+div.container-fluid.form-search {
+    background-color: #084655;
+}
+
+button.btn.btn-search {
+    background-color: #FEB12D;
+}
+
+.search-bar {
+    width: 100%;
+}
+
+/* barre de recherche des articles en lg-screen */
+
+@media screen and (min-width: 992px) {
+    .search-bar {
+        max-width: 50%;
+    }
+    div.container-fluid.form-search {
+        background-color: #fff;
+    }
+    button.btn.btn-search {
+        background-color: #fff;
+        border-top: 0.5px solid #084655;
+        border-right: 0.5px solid #084655;
+        border-bottom: 0.5px solid #084655;
+    }
+}
+
+/* mise en page d'un seul article */
+
+div.row.one-article {
+    border-bottom: 0.5px solid #084655;
+}
+
+/* mise en page d'un seul article en lg-screen */
+
+@media (min-width: 992px) { 
+
+    div.row.one-article:nth-of-type(odd) {
+        border-right: 0.5px solid #084655;
+        margin-left: 5px;
+    }
+
+}
+
+/* mise en page du bouton retour article */
+
+button.second-custom, a.second-custom {
+    background-color: #084655;
+    color: white;
+}
+
+div.back-article-page {
+    background-color: #084655;
+}
+
+/* mise en page de la page contact */
+
+/* mise en page du h3 du formulaire de contact */
+
+h3.offre {
+    background-color: #084655;
+    color: white;
+    border-bottom: 5px solid #FEB12D;
+}
+
+/* mise en page des boutons du formulaire de contact */
+
+a.contact-btn {
+    width: 275px;
+}
+
+div.container-fluid input, div.container-fluid textarea {
+    border: black 1px solid;
+}
+
+/* mise en page de la bannière */
+
+.image-wrap {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.banner-content {
+    position: absolute;
+    z-index: 99999;
+    z-index: 5;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    font-size: 1.5em;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.image-wrap h1 {
+    position: absolute;
+    z-index: 99999;
+    z-index: 5;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    font-size: 1.5em;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.image-wrap p {
+    position: absolute;
+    z-index: 99999;
+    z-index: 5;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    text-align: center;
+    font-size: 1.5em;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.img-content img {
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+.ban-btn {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.fas.fa-arrow-down {
+    position: absolute;
+    bottom: 0;
+    z-index: 99999;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-btn {
+    position: absolute;
+    top: 70%;
+    z-index: 99999;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* mise en page du h3 de la page d'accueil "le club" de manière responsive */
+
+
+@media screen and (max-width: 375px){
+    h3.club-title {
+        position: absolute;
+    }
+}
+
+
+@media screen and (min-width: 376px){
+
+    img.illustration {
+        display: none;
+    }
+
+    h3.club-title {
+        position: relative;
+        background-color: #FEB12D;
+        color: #084655;
+        text-align: center;
+        z-index: 1;
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 576px) { 
+
+    h3.club-title {
+        align-self: center;
+        justify-self: center;
+        width: 298px;
+        text-align: center;
+        padding-left: 50px;
+        color: #084655;
+        flex-direction: column
+    }
+
+    div.title-bg {
+        max-width: 100vw;
+    }
+
+}
+
+/* mise en page d'éléments précédents de manière responsive */
+
+@media screen and (max-width: 991px) {
+
+    /* mise en page du header de manière responsive */
+    
+    ul.navbar-nav {
+        font-size: 17px;
+        font-family: "Montserrat Sans", sans-serif;
+        z-index: 99999;
+        height: 100vh;
+        font-weight: 700;
+    }
+
+    li.home {
+        font-size: 34px;
+    }
+
+    ul.navbar-nav li {
+        margin-top: 5px;
+        padding-bottom: 10px;
+        border-bottom: 3px solid white;
+        width: 275px;
+
+    }
+}
+
+@media screen and (min-width: 992px) {
+    ul.navbar-nav {
+        flex-direction: row;
+    }
+    
+    /* mise en page de la vidéo de manière responsive */
+
+    div.video {
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* mise en page du h4 "venez nous rencontrer" de manière responsive */
+    
+    h4.meeting-title {
+        text-align: left;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media (min-width: 992px) { 
+
+    h3.d-lg-block {
+        background-color: #FEB12D;
+    }
+
+    p.text-description.d-lg-block {
+        background-color: #084655;
+        color: white;
+    }
+
+    div.video {
+        margin: 0;
+    }
+
+}
+
+/* mise en page de la cloche d'alerte et de l'alerte */
+
+.bell-alert {
+    margin-left: auto;
+    color: #FEB12D;
+}
+
+span.alert {
+    visibility: hidden;
+    width: 100%;
+    background-color: #FEB12D;
+    color: #084655;
+    z-index: 99999;
+    top: 100%;
+    left: 0;
+    position: absolute;
+    opacity: 0.9;
+}
+
+.show-alert span.alert {
+    visibility: visible;
+
+}
+
+/* mise en page du h4 "venez nous rencontrer pour régler un souci rencontré */
+
+h4.meeting-title {
+    min-width: 100%;
+}
+
+/* mise en page des articles dans la liste des articles*/
+
+a.btn.btn-read-more {
+    background-color: #bcbcbc;
+}
+
+div.row.list-articles {
+    max-width: 100%;
+}
+
+.img-article {
+    min-height: 100%;
+}
+
+
+
+/* mise en page des sponsors dans le footer*/
+
+div.sponsors {
+    max-width: 100%;
+}
+
